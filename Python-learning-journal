@@ -1,1 +1,26 @@
-
+I'm taking a class from the yotube video https://www.youtube.com/watch?v=LHBE6Q9XlzI&list=WL
+Before jumping to learning how to code using python, it generally explained why use python. It is for problem solving. 
+I first learnt what is problem solving, the author used flowcharts and pseudocode to illustrate the logics to do problem solving. 
+Then he gave two expamles of how to search the minimum value from a list and sort the list from minimum value to compare the pseudo and real python code. 
+def searchMinFromList(L,n):
+minValue=L[0]
+idx=0
+counter=1
+while(counter<=n):  
+      v=L[counter]
+      if(v<minValue)”
+      minValue=v
+      idx=counter
+      else:
+         pass
+counter=counter+1
+return minValue, idx
+def sortList(L,n):
+L2=[]
+Counter=0
+While(counter<=n):
+     m,idx=searchMinFromList(L,n)
+     L2.append(m)
+del L(idx)
+n=n-1
+return L2
